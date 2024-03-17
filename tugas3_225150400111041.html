@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Tugas 3</title>
+    </head>
+    <body>
+        <h1>Tugas 3 225150400111041 Haekal Rafif Bramasta</h1>
+        
+        <form id="formulir">
+            Nama : <br><input id="nama" name="nama" type="text"/><br>
+            NIM : <br><input id="nim" name="nim" type="text"/><br>
+            Jenis Kelamin : <br>
+            <label>
+                <input type="radio" name="jenisKelamin" value="Laki-laki" id="laki-laki"/> Laki-laki
+            </label><br>
+            <label>
+                <input type="radio" name="jenisKelamin" value="Perempuan" id="perempuan"/> Perempuan
+            </label><br>
+            Tanggal Lahir : <br>
+            <input type="date" id="tanggalLahir" name="tanggalLahir"><br>
+            Program Studi : <br>
+            <select id="programStudi" name="programStudi">
+            <option value="Sistem Informasi">Sistem Informasi</option>
+            <option value="Teknologi Informasi">Teknologi Informasi</option>
+            <option value="Pendidikan Teknologi Informasi">Pendidikan Teknologi Informasi</option>
+            <option value="Teknik Informatika">Teknik Informatika</option>
+            <option value="Teknik Komputer">Teknik Komputer</option>
+            </select> <br>
+            <br><input type="button" value="Submit" id="submit"/>
+        </form><br>
+        <div id="hasil"></div>
+        <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+        <script src="tugas3_225150400111041.js"></script>
+    </body>
+</html>
